@@ -54,7 +54,7 @@ Once you hit a kernel function breakpoint, you can view the *temp_source* file a
 For example, this will set a breakpoint at line 150 in the *temp_source*
 
 ```
-(gdb) b hsail:150
+(gdb) b hsail:64
 HSAIL breakpoint 1 (PC:0x08d0 mad_u32 $s0, $s1, $s0, $s3; temp_source@line 150)
 ```
 
